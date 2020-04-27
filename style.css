@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-image:url('background.jp');
+	background-size: cover;
+	background-position:cente;
+}
+body{
+	background:#52B231;
+}
+.login{
+	padding-top: 20px;
+	text-align:center;
+	background: #52B231;
+	color: red;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	width: 320px;
+	height: 430px;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: cover;
+}
+.login h3{
+	text-align: center;
+}
+img{
+	width:100px;
+	height:100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 50%;
+	position: absolute:
+	top: -50px;
+	left: calc(50% -50px);
+}
+button{
+	width: 90px;
+	height: 30px;
+	color: #F99A75;
+	background: #fff;
+	box-sizing: border-box;
+}
