@@ -1,9 +1,9 @@
 *{
 	margin: 0;
 	padding: 0;
-	background-image:url('background.jp');
+	background-image:url('background.jpg');
 	background-size: cover;
-	background-position:cente;
+	background-position:center;
 }
 body{
 	background:#52B231;
