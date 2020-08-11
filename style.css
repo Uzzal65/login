@@ -2,9 +2,10 @@
 	margin: 0;
 	padding: 0;
 	background-image:url('background.jpg');
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    
 	background-size: cover;
-	background-position:center;
+	background-position:center top;
 }
 body{
 	background:#52B231;
@@ -13,7 +14,7 @@ body{
 	padding-top: 20px;
 	text-align:center;
 	background: #52B231;
-	color: red;
+	color: #000;
 	padding-bottom: 20px;
 	padding-left: 20px;
 	width: 320px;
@@ -22,10 +23,12 @@ body{
 	left:50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
-	box-sizing: cover;
+    box-sizing: cover;
+    overflow: hidden;
 }
-.login h3{
-	text-align: center;
+.login h3,h4{
+    text-align: center;
+    background: none;
 }
 img{
 	width:100px;
@@ -34,14 +37,30 @@ img{
     margin-left: auto;
     margin-right: auto;
 	border-radius: 50%;
-	position: absolute:
 	top: -50px;
-	left: calc(50% -50px);
+    left: calc(50% -50px);
+    z-index: 200px;
+    margin-top: 20px;
+}
+
 }
 button{
 	width: 90px;
 	height: 30px;
 	color: #F99A75;
-	background: #fff;
-	box-sizing: border-box;
+	background: none;
+    box-sizing: border-box;
+    
+}
+button[type= "submit"]{
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+.login input[type= "text"], .login input[type= "password"]
+{
+    background: #fff;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 30px;
 }
